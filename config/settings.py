@@ -31,7 +31,6 @@ ALLOWED_HOSTS = []
 # Application definition
 
 DJANGO_APPS = [
-    'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
@@ -45,7 +44,7 @@ THIRD_PARTY_APPS = [
 ]
 
 LOCAL_APPS = [
-
+    'apps.upload_data'
 ]
 
 INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + LOCAL_APPS

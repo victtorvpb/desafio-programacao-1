@@ -1,4 +1,3 @@
-[![Build Status](https://travis-ci.org/victorpb/desafio-programacao-1.svg?branch=master)](https://travis-ci.org/victorpb/desafio-programacao-1)
 
 
 # Desafio de programação 1

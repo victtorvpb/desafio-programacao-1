@@ -11,6 +11,13 @@ class TestsInvoicesViews(TestCase):
 
         self.assertEqual(response.status_code, 200)
 
+    def test_upload_file(self):
+        upload_file = open('apps/upload_data/tests/upload.tab', 'rb')
+        url = reverse('upload_data:upload')
+        response = self.client.post(url, data={'upload': upload_file})
+
+        self.assertEqual(response.status_code, 201)
+
 
 class TestsInvoicesModel(TestCase):
 
